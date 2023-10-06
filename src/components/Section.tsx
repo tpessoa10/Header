@@ -5,8 +5,10 @@ export default function Section({ level ,children }:any) {
       <section className="section">
         <LevelContext.Provider value={level}>
             {children}
+            <p>a</p>
         </LevelContext.Provider>
       </section>
+      
     );
   }
   
